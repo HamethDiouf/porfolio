@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import { ArrowRightCircle, FileEarmarkArrowDown } from 'react-bootstrap-icons';
 import HeaderImg from '../assets/img/header-img.svg';
 import TrackVisibility from 'react-on-screen';
+import Cv from '../assets/cv/cv-hameth.pdf';
 import 'animate.css';
 
 
@@ -54,9 +55,9 @@ export const Banner = () => {
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <span className='tagline'>Welcome to my porfolio</span>
                     <h1 className='heading'>{`Hi! I'm Mouha`} <br /> <span className='wrap'>{text}</span></h1>
-                    <p className='description'>I'm a software developer  with experience building websites and apps. I am motivated and passionate about programming and am constantly learning new technologies to improve my skills. My goal is to work on innovative projects and contribute significantly to the evolution of the web development industry.</p>
-                    <button onClick={() => console.log('connect')}>Let's Connect<ArrowRightCircle size={25} /></button>
-                    {/* <a href="../cv-hameth.pdf"> Download cv </a> */}
+                    <p className='description'>I'm a software developer  with experience building websites and apps. I am motivated and passionate about programming and am constantly learning new technologies to improve my skills. My goal is to work on innovative projects and contribute significantly to the evolution of the web development industry. <a href={Cv} id='down'><FileEarmarkArrowDown title='Dowload Cv'/></a></p>
+                    <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                   
                   </div>}
                 </TrackVisibility>
                 </Col>
