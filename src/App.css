@@ -645,7 +645,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .logo-mt{
-  margin-bottom: 1rem;
+  width: 2.5rem;
+}
+#logo-ft {
+  width: 4.5rem;
 }
 
 /* .App {
