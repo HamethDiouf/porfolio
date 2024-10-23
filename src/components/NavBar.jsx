@@ -4,6 +4,8 @@ import Logo from '../assets/img/logo-m.png';
 import navIcon1 from '../assets/icons/nav-icon1.svg';
 import navIcon2 from '../assets/icons/nav-icon2.svg';
 import navIcon3 from '../assets/icons/nav-icon3.svg';
+import { HashLink } from 'react-router-hash-link';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 // NavBar Section
 export const NavBar = () => {
@@ -29,6 +31,7 @@ const onUpdateActiveLink = (value) => {
 }
 
   return (
+    <Router>
         <Navbar expand='lg' className={scrolled ? 'scrolled': ''}>
             <Container>
                 <Navbar.Brand href='#home'>
@@ -49,11 +52,14 @@ const onUpdateActiveLink = (value) => {
                             <a href="https://facebook.com/"><img src={navIcon2}alt={"Facebook-icon"}/></a>
                             <a href="https://instagram.com/"><img src={navIcon3}alt={"Instagram-icon"}/></a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                        <HashLink to='#connect'>
+                           <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                        </HashLink>
                     </span>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+    </Router>
   )
 }
 
