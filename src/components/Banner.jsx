@@ -56,7 +56,7 @@ export const Banner = () => {
                     <span className='tagline'>Welcome to my porfolio</span>
                     <h1 className='heading'>{`Hi! I'm Mouha`} <br /> <span className='wrap'>{text}</span></h1>
                     <p className='description'>I'm a software developer  with experience building websites and apps. I am motivated and passionate about programming and am constantly learning new technologies to improve my skills. My goal is to work on innovative projects and contribute significantly to the evolution of the web development industry.</p>
-                    <button onClick={() => console.log('download')}><a href={Cv} id='down'>Dowload Cv<ArrowRightCircle size= {25} /></a>
+                    <button onClick={() => console.log('download')}><a href={Cv} id='down' target='_blank'>Dowload Cv<ArrowRightCircle size= {25} /></a>
                     </button>
                   </div>}
                 </TrackVisibility>

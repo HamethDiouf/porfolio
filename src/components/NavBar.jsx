@@ -48,9 +48,9 @@ const onUpdateActiveLink = (value) => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/"><img src={navIcon1}alt={"Linkedin-icon"}/></a>
-                            <a href="https://facebook.com/"><img src={navIcon2}alt={"Facebook-icon"}/></a>
-                            <a href="https://instagram.com/"><img src={navIcon3}alt={"Instagram-icon"}/></a>
+                            <a href="https://www.linkedin.com/" target='_blank'><img src={navIcon1}alt={"Linkedin-icon"}/></a>
+                            <a href="https://facebook.com/" target='_blank'><img src={navIcon2}alt={"Facebook-icon"}/></a>
+                            <a href="https://instagram.com/" target='_blank'><img src={navIcon3}alt={"Instagram-icon"}/></a>
                         </div>
                         <HashLink to='#connect'>
                            <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>

@@ -17,9 +17,9 @@ export const Footer = () => {
           </Col>
           <Col sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://facebook.com/"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://instagram.com/"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/" target='_blank'><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://facebook.com/" target='_blank'><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://instagram.com/" target='_blank'><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Copyright &copy; 2023 by Mouha | All Right Reserved.</p>
           </Col>
