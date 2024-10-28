@@ -8,10 +8,10 @@ import projImg3 from "../assets/img/quiz.png";
 import projImg4 from "../assets/img/calculator.png";
 import projImg5 from "../assets/img/project-img2.png";
 import projImg6 from "../assets/img/project-img3.png";
+import projImg7 from "../assets/img/frm-1.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
-
 
 
 
@@ -50,14 +50,14 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg5,
+      imgUrl: projImg6,
       viewProj:'',
       sourceProj:''
     },
     {
-      title: "Business Startup",
+      title: "Validation Form",
       description: "Design & Development",
-      imgUrl: projImg6,
+      imgUrl: projImg7,
       viewProj:'',
       sourceProj:''
     },
