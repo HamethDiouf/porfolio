@@ -13,8 +13,8 @@ export const ProjectCardTwo = ({title2, description2, imgUrl2, viewProj2, source
                 <h4>{title2}</h4>
                 <span>{description2}</span>
                 <br />
-                <a href={sourceProj2} className='proj-icon' id='github'><img src={GithubIcon} alt="Github icon" /></a>
-                <a href={viewProj2} className='proj-icon'><img src={EyeIcon} alt="Eye icon" /></a>
+                <a href={sourceProj2} className='proj-icon' id='github' target='_blank'><img src={GithubIcon} alt="Github icon" /></a>
+                <a href={viewProj2} className='proj-icon' target='_blank'><img src={EyeIcon} alt="Eye icon" /></a>
             </div>
         </div>
       </Col>

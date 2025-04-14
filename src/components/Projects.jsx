@@ -6,7 +6,7 @@ import projImg1 from "../assets/img/wt.png";
 import projImg2 from "../assets/img/todo.png";
 import projImg3 from "../assets/img/quiz.png";
 import projImg4 from "../assets/img/calculator.png";
-import projImg5 from "../assets/img/project-img2.png";
+import projImg5 from "../assets/img/ref.png";
 import projImg6 from "../assets/img/project-img3.png";
 import projImg7 from "../assets/img/frm-1.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -48,16 +48,16 @@ export const Projects = () => {
       sourceProj:'https://github.com/HamethDiouf/calculator_app'
     },
     {
-      title: "Business Startup",
+      title: "Registration Form",
       description: "Design & Development",
-      imgUrl: projImg6,
+      imgUrl: projImg5,
       viewProj:'',
       sourceProj:''
     },
     {
-      title: "Validation Form",
+      title: "Blog",
       description: "Design & Development",
-      imgUrl: projImg7,
+      imgUrl: projImg6,
       viewProj:'',
       sourceProj:''
     },
@@ -87,23 +87,23 @@ export const Projects = () => {
     sourceProj2:''
   },
   {
-    title2: "Weather App",
+    title2: "Registration Form",
     description2: "Design & Development",
-    imgUrl2: projImg1,
+    imgUrl2: projImg5,
     viewProj2:'',
     sourceProj2:''
   },
   {
-    title2: "Weather App",
+    title2: "Registration Form",
     description2: "Design & Development",
-    imgUrl2: projImg1,
+    imgUrl2: projImg5,
     viewProj2:'',
     sourceProj2:''
   },
   {
-    title2: "Weather App",
+    title2: "Registration Form",
     description2: "Design & Development",
-    imgUrl2: projImg1,
+    imgUrl2: projImg5,
     viewProj2:'',
     sourceProj2:''
   }
@@ -112,21 +112,21 @@ export const Projects = () => {
  // Tab Three Projects ******
  const projects3 = [
   {
-    title3: "Weather App",
+    title3: "Todo-List App",
     description3: "Design & Development",
     imgUrl3: projImg2,
     viewProj3:'',
     sourceProj3:''
   },
   {
-    title3: "Weather App",
+    title3: "Todo-List App",
     description3: "Design & Development",
     imgUrl3: projImg2,
     viewProj3:'',
     sourceProj3:''
   },
   {
-    title3: "Weather App",
+    title3: "Todo-List App",
     description3: "Design & Development",
     imgUrl3: projImg2,
     viewProj3:'',

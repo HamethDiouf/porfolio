@@ -13,8 +13,8 @@ export const ProjectCard = ({title, description, imgUrl, viewProj, sourceProj}) 
                 <h4>{title}</h4>
                 <span>{description}</span>
                 <br />
-                <a href={sourceProj} className='proj-icon' id='github'><img src={GithubIcon}alt="Github icon" /></a>
-                <a href={viewProj} className='proj-icon'><img src={EyeIcon} alt="Eye icon" /></a>
+                <a href={sourceProj} className='proj-icon' id='github' target='_blank'><img src={GithubIcon}alt="Github icon" /></a>
+                <a href={viewProj} className='proj-icon' target='_blank'><img src={EyeIcon} alt="Eye icon" /></a>
             </div>
         </div>
       </Col>
