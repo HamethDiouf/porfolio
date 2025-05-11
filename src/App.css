@@ -59,7 +59,7 @@ img {
 }
 
 button {
-  border: 1px solid transparent;
+  border: 0;
   background-color: transparent;
 }
 
